@@ -1,14 +1,42 @@
-'use strict';
+var App = angular.module('app', ['ui.router']);
+App.config(function($stateProvider, $urlRouterProvider) {
+    $stateProvider
+        .state('dashboard', {
+            url: '/dashboard',
+            views: {
+                nav: {
+                    templateUrl: 'navs/nav.html'
+                },
+                content: {
+                    templateUrl: 'dashboard.html'
+                }
+            }
+        })
+        .state('about', {
+            url: '/about',
+            views: {
+                nav: {
+                    templateUrl: 'navs/nav.html'
+                },
+                content: {
+                    templateUrl: 'about.html'
+                }
+            }
+        }).state('landingpage', {
+        url: '/landingpage',
+        views: {
+            content: {
+                templateUrl: 'landingpage.html'
+            }
+        }
+    });
+    $urlRouterProvider.otherwise('/dashboard');
+});
 
-// Declare app level module which depends on views, and components
-angular.module('myApp', [
-  'ngRoute',
-  'myApp.view1',
-  'myApp.view2',
-  'myApp.version'
-]).
-config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
-  $locationProvider.hashPrefix('!');
-
-  $routeProvider.otherwise({redirectTo: '/view1'});
+App.controller('stateController', ['$scope', function($scope) {
+    $scope.dashboard = function () {
+        $state.go('about');
+    };
 }]);
+
+
