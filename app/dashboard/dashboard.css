@@ -1,0 +1,61 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    text-decoration-color: white;
+
+
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 1000px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+    padding-top: 15px;
+    background-color: #d9d9d9;
+    height: 100%;
+    width: 15%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+    background: #262626;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
+
+li a {
+    border-color: black;
+
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {height:auto;}
+}
+
+input[type=text] {
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 35%;
+}

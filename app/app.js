@@ -8,7 +8,7 @@ App.config(function($stateProvider, $urlRouterProvider) {
                     templateUrl: 'navs/nav.html'
                 },
                 content: {
-                    templateUrl: 'dashboard.html'
+                    templateUrl: 'dashboard/dashboard.html'
                 }
             }
         })
