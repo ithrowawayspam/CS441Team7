@@ -1,0 +1,64 @@
+body{
+	margin:0;
+	background-color: #524e33;
+}
+
+.parallax {
+	background: url("city.jpg") no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 800px;
+}
+
+.parallax1 {
+	background: url("st1.jpg") no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 180px;
+}
+.parallax2 {
+	background: url("P3.jpg") no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 180px;
+}
+.parallax3 {
+	background: url("tm4.jpg") no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 180px;
+}
+.parallax4 {
+	background: url("D1.jpg") no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 180px;
+}
+.parallax5 {
+	background: url("p6.jpg") no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 180px;
+}
+h1 {
+font-family: arial black;
+font-size: 30px;
+color:white;
+margin: 0px;
+text-align: center;
+}
+p {
+	color:white;
+	text-align: center;
+}
+ul {
+	color:white;
+	text-align: center;
+	list-style-type: none;
+}
+li{
+	color:white;
+	text-align: center;
+	list-style-type: none;
+	
+}

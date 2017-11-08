@@ -1,0 +1,110 @@
+.dropbtn {
+    width: 100%;
+    background-color: #0f0e01;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: solid;
+    border-color: #a19d67; 
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    border: solid;
+    border-color: #a19d67;
+    background-color: #0f0e01;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    border: solid;
+    border-color: #a19d67;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover 
+{
+  background-color: #a19d67;
+  border-color: #EAE3EA;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #a19d67;
+    color: white;
+}
+
+div.container4 {
+    height: 800px;
+    width: 200px;
+    padding: 10px;
+    padding-right: 5px;
+    border: solid;
+    border-color: #EAE3EA;
+    margin: 0 auto;
+    font-size: 20px;
+    text-decoration-color: #f2f2a2; 
+    display: inline-block;
+    background-color: #626E60;
+}
+div.container5 {
+    float: right;
+    position: absolute;
+    height: 800px;
+    width: 84%;
+    padding: 10px;
+    padding-right: 5px;
+    border: solid;
+    border-color: #EAE3EA;
+    font-size: 20px;
+    text-decoration-color: #f2f2a2; 
+    display: inline-block;
+    background-color: #626E60;
+}
+
+div.container6 {
+    position: relative;
+    float: right;
+    height: 100px;
+    width: 98.5%;
+    padding: 10px;
+    padding-right: 5px;
+    border: solid;
+    border-color: #EAE3EA;
+    font-size: 20px;
+    text-decoration-color: #f2f2a2; 
+    display: inline-block;
+    background-color: #626E60;
+}
+
+div.container7 {
+    position: relative;
+    float: right;
+    height: 655px;
+    width: 98.5%;
+    padding: 10px;
+    padding-right: 5px;
+    border: solid;
+    border-color: #EAE3EA;
+    font-size: 20px;
+    text-decoration-color: #f2f2a2; 
+    display: inline-block;
+    background-color: #626E60;
+}
+

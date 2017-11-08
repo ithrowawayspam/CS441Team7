@@ -1,0 +1,208 @@
+body 
+{
+    margin: 0;
+    padding: 0px;
+    background-color: #524e33;
+}
+
+.nav 
+{
+  overflow: hidden;
+  background-color: #030000;
+}
+
+.nav a 
+{
+  float: left;
+  display: block;
+  color: #f2f2a2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav a:hover 
+{
+  background-color: #999040;
+  color: black;
+}
+
+.nav a.active 
+{
+    background-color: #4CAF5022;
+    color: white;
+}
+
+
+form.firstF {
+    border: 3px solid #030000;
+    background-color: white;
+    width: 36%;
+}
+
+form.secondF {
+    border: 3px solid #030000;
+    background-color: white;
+    width: 25%;
+    margin-right: 20px;
+    float: right;
+}
+
+
+input[type=text], input[type=password] 
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ddd222;
+    box-sizing: border-box;
+
+}
+
+input:hover
+{
+ background-color: #f2f2a2; 
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+}
+
+button 
+{
+    background-color: #2e3233;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 75%;
+
+}
+
+button:hover 
+{
+    background-color: #6d787a;
+    opacity: 0.8;
+      display: block;
+
+}
+
+h1{
+  font-family: arial black;
+  font-size: 50px;
+  color:white;
+  margin: 0px;
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  color:black;
+  font-size: 18px;
+}
+
+ul {
+  color:white;
+  text-align: center;
+  list-style-type: none;
+}
+li{
+  color:white;
+  text-align: center;
+  list-style-type: none;
+}
+
+
+div.container1 {
+    padding: 10px;
+    padding-top: 5px;
+    padding-right: 5px;
+    margin: 0 auto;
+    font-size: 20px;
+    text-decoration-color: #f2f2a2; 
+    display: inline-block;
+    background-color: white;
+}
+
+
+div.container2 {
+
+    padding: 15px;
+    padding-top: 5px;
+    padding-right: 5px;
+    margin: 0 auto;
+    font-size: 20px;
+    text-decoration-color: #f2f2a2; 
+    display: inline-block;
+    background-color: white;
+}
+
+
+
+.container4 {
+  max-width: 100%;
+  margin: 0 auto;
+  font-size: 24px;
+  padding:0px;
+
+}
+
+.Hpara {
+  background: url("p2.png") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 800px;
+}
+
+.para1 {
+  background: url("p28.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 800px;
+}
+
+.para2 {
+  background: url("p43.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 800px;
+}
+
+
+.parallax1 {
+  background: url("st1.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 180px;
+}
+.parallax2 {
+  background: url("P3.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 180px;
+}
+.parallax3 {
+  background: url("tm4.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 180px;
+}
+.parallax4 {
+  background: url("D1.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 180px;
+}
+.parallax5 {
+  background: url("p6.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 180px;
+}
