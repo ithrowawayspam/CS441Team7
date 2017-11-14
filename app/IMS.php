@@ -13,9 +13,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
   <link rel="stylesheet" type="text/css" href="csshake.min.css">
-<!-- or from surge.sh -->
 <link rel="stylesheet" type="text/css" href="http://csshake.surge.sh/csshake.min.css">
-
+<script type="text/javascript" src="JavaScript.js"></script>
   <link rel="stylesheet" type="text/css" href="dashboard.css">
 
 
@@ -91,7 +90,7 @@
 
   <div> 
     <h1>Welcome</h1>
-    echo "<p id='demo'></p>";
+    <p id='demo'></p>
 
     
     <br>
@@ -112,138 +111,7 @@
 
   <div class="container5"><div class="container6"></div><div class="container7"></div></div>
 
-  <script>
-    function AddBook() {
-      var txt;
-      var book_Name = prompt("Please enter the Book name:", "Harry Potter");
-      var book_ISBN = prompt("Please enter ISBN number :", "97800000000");
-      var book_Author = prompt("Please enter your Author last name:", "robbins");
-      if (book_Name == null || book_Name == "") {
-        txt = "User cancelled the prompt.";
-      } else {
-        txt = "Book " + book_Name + " Was added to the inventory!";
-      }
-      document.getElementById("demo").innerHTML = txt;
-    }
-  </script>
-
-<script>
-    function AddElectronic() {
-      var txt;
-      var Elec_Name = prompt("Please enter the product name:", "Harry Potter");
-      var Elec_SKU = prompt("Please enter SKU number :", "178652");
-      var Elec_Price = prompt("Please enter product price:", "5.99");
-
-      if (Elec_Name == null || Elec_Name == "") {
-        txt = "User cancelled the prompt.";
-      } else {
-        txt = "Product " + Elec_Name + " Was added to the inventory!";
-      }
-      document.getElementById("demo").innerHTML = txt;
-    }
-  </script>
-
-  <script>
-    function AddSupplies() {
-      var txt;
-      var Supply_Name = prompt("Please enter the product name:", "Harry Potter");
-      var Supply_SKU = prompt("Please enter SKU number :", "178652");
-      var Supply_Price = prompt("Please enter product price:", "5.99");
-      if (Supply_Name == null || Supply_Name == "") {
-        txt = "User cancelled the prompt.";
-      } else {
-        txt = "Product " + Supply_Name + " Was added to the inventory!";
-      }
-      document.getElementById("demo").innerHTML = txt;
-    }
-  </script>
-
-  <script>
-    function RemoveBook() {
-      var txt;
-      var book_Name = prompt("Please enter the Book name:", "Harry Potter");
-      var book_ISBN = prompt("Please enter ISBN number :", "97800000000");
-      var book_Author = prompt("Please enter your Author last name:", "robbins");
-      if (book_Name == null || book_Name == "") {
-        txt = "User cancelled the prompt.";
-      } else {
-        txt = "Book " + book_Name + " Was Removed from inventory!";
-      }
-      document.getElementById("demo").innerHTML = txt;
-    }
-  </script>
-
-<script>
-    function RemoveElectronic() {
-      var txt;
-      var Elec_Name = prompt("Please enter the product name:", "Harry Potter");
-      var Elec_SKU = prompt("Please enter SKU number :", "178652");
-      var Elec_Price = prompt("Please enter product price:", "5.99");
-      if (Elec_Name == null || Elec_Name == "") {
-        txt = "User cancelled the prompt.";
-      } else {
-        txt = "Product " + Elec_Name + " Was Removed from inventory!";
-      }
-      document.getElementById("demo").innerHTML = txt;
-    }
-  </script>
-
-  <script>
-    function RemoveSupplies() {
-      var txt;
-      var Supply_Name = prompt("Please enter the product name:", "Harry Potter");
-      var Supply_SKU = prompt("Please enter SKU number :", "178652");
-      var Supply_Price = prompt("Please enter product price:", "5.99");
-      if (Supply_Name == null || Supply_Name == "") {
-        txt = "User cancelled the prompt.";
-      } else {
-        txt = "Product " + Supply_Name + " Was Removed from inventory!";
-      }
-      document.getElementById("demo").innerHTML = txt;
-    }
-  </script>
-
- <script>
-    function SearchName() {
-      var txt;
-      var product_Name = prompt("Please enter the Book name:", "Harry Potter");
-      if (Product_Name == null || Product_Name == "") {
-        txt = "User cancelled the prompt.";
-      } else {
-        txt = "Item " + product_Name + " Was Removed from inventory!";
-      }
-      document.getElementById("demo").innerHTML = txt;
-    }
-  </script>
-
-<script>
-    function SearchSKU() {
-      var txt;
-      var product_SKU = prompt("Please enter SKU number :", "178652");
-      if (product_Name == null || product_Name == "") {
-        txt = "User cancelled the prompt.";
-      } else {
-        txt = "Item " + Elec_Name + " Was Removed from inventory!";
-      }
-      document.getElementById("demo").innerHTML = txt;
-    }
-  </script>
-
-  <script>
-    function SearchISBN() {
-      var txt;
   
-      var product_ISBN = prompt("Please enter ISBN number :", "97800000000");
-      
-      if (product_ISBN == null || product_ISBN == "") {
-        txt = "User cancelled the prompt.";
-      } else {
-        txt = "Item " + product_ISBN + " Was Removed from inventory!";
-      }
-      document.getElementById("demo").innerHTML = txt;
-    }
-  </script>
-
 
 </body>
 </html>
