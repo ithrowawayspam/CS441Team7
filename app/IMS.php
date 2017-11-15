@@ -1,24 +1,30 @@
-   <!DOCTYPE html>
-   <html>
-   <head><title>IMS</title> 
-    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"/>                                                                             
-    <meta charset="utf-8">                                                                                               
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">                                                                
-    <title>Project Aquarius</title>         
-  </head>
-
+<!DOCTYPE html>
+<html>
+<head><title>IMS</title> 
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"/>                                                                             
+  <meta charset="utf-8">                                                                                               
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">   
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
-  <link rel="stylesheet" type="text/css" href="csshake.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+<link rel="stylesheet" type="text/css" href="csshake.min.css">
 <link rel="stylesheet" type="text/css" href="http://csshake.surge.sh/csshake.min.css">
-<script type="text/javascript" src="JavaScript.js"></script>
-  <link rel="stylesheet" type="text/css" href="dashboard.css">
+<script type="text/javascript" src="JS.js"></script>
+<link rel="stylesheet" type="text/css" href="dashboard.css">
+<link rel="stylesheet" type="text/css" href="Loader.css">                                                             
+  <title>Project Aquarius</title>         
+</head>
 
 
-  <body>
+
+
+<body onload="myFunction()" style="margin:0;">
+
+  <div id="loader"></div>
+
+  <div style="display:none;" id="myDiv" class="animate-bottom">
 
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
@@ -59,11 +65,11 @@
        <button class="icon-button"><span style="color:white;" class="glyphicon glyphicon-minus-sign"></span></button>
        <div class="dropdown-content">
          <a onclick="RemoveBook()" href="#">Remove a Book</a>    
-          <a onclick="RemoveElectronic()" href="#">Remove Electronics</a>
-          <a onclick="RemoveSupplies()" href="#">Remove supplies</a> 
-      </div>
-    </div><br>
-    <div class="dropdown">
+         <a onclick="RemoveElectronic()" href="#">Remove Electronics</a>
+         <a onclick="RemoveSupplies()" href="#">Remove supplies</a> 
+       </div>
+     </div><br>
+     <div class="dropdown">
       <button class="icon-button"><span style="color:white;" class="glyphicon glyphicon-search"></span></span></button>
       <div class="dropdown-content">       
         <a onclick="SearchName()" href="#">Search by Name</a>
@@ -98,7 +104,7 @@
     <hr>
     <h3>Test</h3>
     <p>Agent white repoting in...</p>
-      </div>      
+  </div>      
 
 
   <footer class="container-fluid text-center">
@@ -108,10 +114,10 @@
       </ul>
     </div>
   </footer>
+</div>
 
-  <div class="container5"><div class="container6"></div><div class="container7"></div></div>
 
-  
+
 
 </body>
 </html>
