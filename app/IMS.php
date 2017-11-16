@@ -40,7 +40,7 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">  
-            <li><a class="shake-slow" href="#" style="float: left;">LOGO</a></li>                       
+            <li><a class="shake-slow" href="#" style="float: left;"><img src="aqua2.jpg" alt="aqua" width="65" height="18"></a></li>                       
             <li><a style="background-color:#CDCDCD; float: left; height: auto; " href="#">Home</a></li>
             <li><a href="#">Tasks</a></li>
             <li><a href="#">Control</a></li>
