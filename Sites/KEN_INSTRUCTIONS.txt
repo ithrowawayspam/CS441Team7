@@ -1,0 +1,14 @@
+in your phpmyadmin, create a database called CS441_IMS
+
+Go into that database and go into import and import the cs441_ims.sql
+Should return green result.
+In the use folder under config.php, you want to change:
+
+  define('DB_HOST', 'localhost');        // Set database host
+  define('DB_USER', 'root');             // Set database user
+  define('DB_PASS', 'YOUR_PASSWORD');       // Set database password
+  define('DB_NAME', 'cs441_ims');        // Set database name
+  
+  Default username: admin
+  Default password: admin
+  
